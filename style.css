@@ -1402,7 +1402,7 @@ img {
   }
 
   .stats-band-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     gap: 2rem;
   }
 
@@ -2164,13 +2164,20 @@ img {
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .info-cards-grid {
     grid-template-columns: 1fr;
+    gap: 1.5rem;
   }
 
   .contact-page-hero h1 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .info-cards-grid {
+    grid-template-columns: 1fr;
   }
 
   .form-row {
