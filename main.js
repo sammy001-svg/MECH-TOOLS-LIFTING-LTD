@@ -7,7 +7,7 @@ const appShell = `
   <header class="header">
     <nav class="nav container">
       <div class="logo">
-        <span class="logo-accent">MECH</span>-TOOLS
+        <span class="logo-accent">BENEDIC</span>TECH TOOL LIFTING
       </div>
       <ul class="nav-links">
         <li><a href="#home">Home</a></li>
@@ -29,7 +29,7 @@ const appShell = `
     <div class="container footer-grid">
       <div class="footer-brand">
         <div class="logo">
-          <span class="logo-accent">MECH</span>-TOOLS
+          <span class="logo-accent">BENEDIC</span>TECH TOOL LIFTING
         </div>
         <p class="footer-tagline">Precision Lifting. Proven Reliability. Over a decade of industrial excellence in heavy lifting, recovery, and transport solutions.</p>
         <div class="social-links">
@@ -71,7 +71,7 @@ const appShell = `
           </li>
           <li>
             <span class="contact-icon">📞</span>
-            <span>0722 928 404 / 0734 021 354 / 0784 052 553</span>
+            <span>0722 928 404 / 0733 460 296 / 0700 777 793</span>
           </li>
           <li>
             <span class="contact-icon">📧</span>
@@ -86,7 +86,7 @@ const appShell = `
     </div>
     <div class="footer-bottom">
       <div class="container bottom-content">
-        <p>&copy; 2026 MECH-TOOLS LIFTING LTD. All rights reserved.</p>
+        <p>&copy; 2026 BENEDICTECH TOOL LIFTING. All rights reserved.</p>
         <div class="bottom-links">
           <a href="#">Privacy Policy</a>
           <a href="#">Terms of Service</a>
@@ -196,8 +196,8 @@ const HomeView = `
       <div class="container about-grid">
         <div class="about-content reveal">
           <span class="badge">A Decade of Excellence</span>
-          <h2>Mechincal Tools & <br><span class="text-accent">Lifting Specialists.</span></h2>
-          <p>Founded on the principles of safety and precision, MECH-TOOLS LIFTING LTD has grown into a premier heavy lifting and recovery partner over the last ten years. We specialize in navigating the most complex lifting challenges with a focus on minimal downtime and maximum safety.</p>
+          <h2>BENEDICTECH TOOL LIFTING <br><span class="text-accent">Specialists.</span></h2>
+          <p>Founded on the principles of safety and precision, BENEDICTECH TOOL LIFTING has grown into a premier heavy lifting and recovery partner over the last ten years. We specialize in navigating the most complex lifting challenges with a focus on minimal downtime and maximum safety.</p>
           
           <ul class="about-features">
             <li><span class="feat-icon">✅</span> <strong>Safety-First Culture:</strong> Zero-accident record across all sectors.</li>
@@ -314,11 +314,11 @@ const HomeView = `
     <section class="partners-marquee">
       <div class="container">
         <div class="marquee-track">
-           <div class="marquee-item">MECH-TOOLS PARTNER</div>
+           <div class="marquee-item">BENEDICTECH PARTNER</div>
            <div class="marquee-item">INDUSTRIAL LEADER</div>
            <div class="marquee-item">SAFETY CERTIFIED</div>
            <div class="marquee-item">24/7 RESPONSE</div>
-           <div class="marquee-item">MECH-TOOLS PARTNER</div>
+           <div class="marquee-item">BENEDICTECH PARTNER</div>
            <div class="marquee-item">INDUSTRIAL LEADER</div>
            <div class="marquee-item">SAFETY CERTIFIED</div>
            <div class="marquee-item">24/7 RESPONSE</div>
@@ -474,7 +474,7 @@ const HomeView = `
 const AboutView = `
     <section class="about-page-hero">
       <div class="container">
-        <h1 class="reveal">About <span class="text-accent">MECH-TOOLS LIFTING LTD</span></h1>
+        <h1 class="reveal">About <span class="text-accent">BENEDICTECH TOOL LIFTING</span></h1>
         <p class="reveal">A Decade of Strength, Speed, and Unwavering Reliability.</p>
       </div>
     </section>
@@ -484,7 +484,7 @@ const AboutView = `
         <div class="about-text">
           <span class="badge">Our Journey</span>
           <h2>Ten Years of <span class="text-accent">Proven Expertise.</span></h2>
-          <p>Benedict Logistics Lifting Solutions (operating as MECH-TOOLS LIFTING LTD) is a professional heavy lifting, transport, and recovery company with over a decade of industry experience. For ten years, we have delivered safe, efficient, and reliable solutions across construction, industrial, transport, and commercial sectors.</p>
+          <p>BENEDICTECH TOOL LIFTING is a professional heavy lifting, transport, and recovery company with over a decade of industry experience. For ten years, we have delivered safe, efficient, and reliable solutions across construction, industrial, transport, and commercial sectors.</p>
           <p>What started as a specialized lifting firm has evolved into a 24/7 industrial logistics powerhouse. We are proud of our heritage and the reputation we've built for handling "the impossible" lifts with surgical precision.</p>
         </div>
         <div class="about-img-frame">
@@ -731,8 +731,8 @@ const ContactView = `
           <div class="info-card-icon">📞</div>
           <h4>Call Us</h4>
           <p>0722 928 404</p>
-          <p>0734 021 354</p>
-          <p>0784 052 553</p>
+          <p>0733 460 296</p>
+          <p>0700 777 793</p>
           <span class="info-card-label">24/7 Emergency Line</span>
         </div>
         <div class="info-card">

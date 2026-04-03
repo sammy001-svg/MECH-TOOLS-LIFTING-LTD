@@ -1460,6 +1460,14 @@ img {
   margin-top: 80px;
 }
 
+.services-page-hero h1 {
+  color: #ffffff;
+}
+
+.services-page-hero p {
+  color: #ffffff;
+}
+
 .detailed-services {
   padding: 8rem 0;
 }
@@ -1816,6 +1824,14 @@ img {
   background-position: center;
   background-attachment: fixed;
   text-align: center;
+}
+
+.safety-showcase h2 {
+  color: #ffffff;
+}
+
+.safety-item p {
+  color: #ffffff;
 }
 
 .safety-grid-full {

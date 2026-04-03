@@ -1,6 +1,6 @@
-# MECH-TOOLS LIFTING LTD
+# BENEDICTECH TOOL LIFTING
 
-A premium, responsive website for MECH-TOOLS LIFTING LTD, specializing in heavy lifting, vehicle recovery, and industrial logistics.
+A premium, responsive website for BENEDICTECH TOOL LIFTING, specializing in heavy lifting, vehicle recovery, and industrial logistics.
 
 ## Features
 
@@ -25,4 +25,4 @@ A premium, responsive website for MECH-TOOLS LIFTING LTD, specializing in heavy 
 
 ## License
 
-Copyright © 2026 MECH-TOOLS LIFTING LTD. All rights reserved.
+Copyright © 2026 BENEDICTECH TOOL LIFTING. All rights reserved.
