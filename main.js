@@ -339,6 +339,27 @@ const HomeView = `
       </div>
       <div class="gallery-grid reveal">
         <div class="gallery-item" data-category="lifting">
+          <img src="/images/gallery_crane_truck.jpg" alt="Specialized crane truck performing heavy lifting in an industrial yard">
+          <div class="gallery-overlay">
+            <h4>Heavy Duty Lifting</h4>
+            <p>Industrial Site Operations</p>
+          </div>
+        </div>
+        <div class="gallery-item" data-category="lifting">
+          <img src="/images/WhatsApp%20Image%202026-04-04%20at%201.19.54%20PM.jpeg" alt="Strategic heavy lifting using mobile crane technology">
+          <div class="gallery-overlay">
+            <h4>Precision Lifting</h4>
+            <p>Industrial Crane Support</p>
+          </div>
+        </div>
+        <div class="gallery-item" data-category="transport">
+          <img src="/images/WhatsApp%20Image%202026-04-04%20at%201.19.55%20PM.jpeg" alt="Machinery transport and logistics for heavy industrial equipment">
+          <div class="gallery-overlay">
+            <h4>Equipment Logistics</h4>
+            <p>Machinery Transport</p>
+          </div>
+        </div>
+        <div class="gallery-item" data-category="lifting">
           <img src="/images/WhatsApp%20Image%202026-03-01%20at%206.23.34%20PM.jpeg" alt="Precision structural lifting operation at an industrial plant">
           <div class="gallery-overlay">
             <h4>Structural Lifting</h4>
