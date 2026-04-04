@@ -1,6 +1,6 @@
 :root {
-  --primary: #ff8c00; /* Safety Orange */
-  --primary-dark: #cc7000;
+  --primary: #008844; /* Safety Green */
+  --primary-dark: #006633;
   --bg-dark: #ffffff;
   --bg-card: #f8f9fa;
   --text-light: #1a1a1a;
@@ -10,6 +10,10 @@
   --glass: rgba(0, 0, 0, 0.05);
   --glass-border: rgba(0, 0, 0, 0.1);
   --transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.text-white {
+  color: #ffffff !important;
 }
 
 .reveal {
@@ -36,7 +40,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 10px 25px rgba(255, 140, 0, 0.4);
+  box-shadow: 0 10px 25px rgba(0, 136, 68, 0.4);
   cursor: pointer;
   transition: var(--transition);
   text-decoration: none;
@@ -176,7 +180,7 @@ img {
 .btn-primary:hover {
   background-color: var(--primary-dark);
   transform: translateY(-2px);
-  box-shadow: 0 10px 20px rgba(255, 140, 0, 0.2);
+  box-shadow: 0 10px 20px rgba(0, 136, 68, 0.2);
 }
 
 .btn-outline {
@@ -220,7 +224,7 @@ img {
   max-width: 700px;
 }
 
-.hero h1 {
+.hero h1, .h1-style {
   font-size: 4rem;
   line-height: 1.1;
   font-weight: 700;

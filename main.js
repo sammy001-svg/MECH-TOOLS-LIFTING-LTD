@@ -33,10 +33,10 @@ const appShell = `
         </div>
         <p class="footer-tagline">Precision Lifting. Proven Reliability. Over a decade of industrial excellence in heavy lifting, recovery, and transport solutions.</p>
         <div class="social-links">
-          <a href="#" class="social-icon">FB</a>
-          <a href="#" class="social-icon">IG</a>
+          <a href="https://www.facebook.com/share/1CmeQE36Gh/" target="_blank" rel="noopener noreferrer" class="social-icon">FB</a>
+          <a href="https://www.instagram.com/benedict_logistics_tech?igsh=MTVsbHQzaHR5a2JmNA==" target="_blank" rel="noopener noreferrer" class="social-icon">IG</a>
           <a href="#" class="social-icon">LI</a>
-          <a href="#" class="social-icon">X</a>
+          <a href="https://vm.tiktok.com/ZS984AfXnSbPT-w0Pk2/" target="_blank" rel="noopener noreferrer" class="social-icon">TT</a>
         </div>
       </div>
       
@@ -158,7 +158,7 @@ const HomeView = `
           <div class="hero-overlay"></div>
           <div class="container hero-content">
             <h1>Strength. Speed. <br><span class="text-accent">Reliability.</span></h1>
-            <p>Expert heavy lifting and crane services with a decade of industrial excellence.</p>
+            <p>Expert heavy lifting and crane services with a decade of industrial excellence in Nairobi, Kenya.</p>
             <div class="hero-btns">
               <a href="#services" class="btn btn-primary">Our Services</a>
               <a href="#contact" class="btn btn-outline">Contact Us</a>
@@ -168,7 +168,7 @@ const HomeView = `
         <div class="carousel-slide" style="background-image: url('/images/WhatsApp%20Image%202026-03-01%20at%206.23.36%20PM.jpeg')">
           <div class="hero-overlay"></div>
           <div class="container hero-content">
-            <h1>24/7 Roadside <br><span class="text-accent">Recovery.</span></h1>
+            <h2 class="h1-style"><span class="text-white">24/7 Roadside</span> <br><span class="text-accent">Recovery.</span></h2>
             <p>Fast and reliable vehicle recovery for light and heavy-duty commercial fleets.</p>
             <div class="hero-btns">
               <a href="#services" class="btn btn-primary">Recovery Services</a>
@@ -179,7 +179,7 @@ const HomeView = `
         <div class="carousel-slide" style="background-image: url('/images/WhatsApp%20Image%202026-03-01%20at%206.23.38%20PM%20(2).jpeg')">
           <div class="hero-overlay"></div>
           <div class="container hero-content">
-            <h1>Precision <br><span class="text-accent">Logistics.</span></h1>
+            <h2 class="h1-style"><span class="text-white">Precision</span> <br><span class="text-accent">Logistics.</span></h2>
             <p>Secure machinery and equipment transport with guaranteed safe delivery.</p>
             <div class="hero-btns">
               <a href="#services" class="btn btn-primary">Transport Solutions</a>
@@ -269,7 +269,7 @@ const HomeView = `
       </div>
       <div class="services-grid">
         <div class="service-card reveal" data-service="heavy-lifting">
-          <div class="service-img" style="background-image: url('/images/WhatsApp%20Image%202026-03-01%20at%206.23.38%20PM.jpeg')"></div>
+          <div class="service-img" style="background-image: url('/images/WhatsApp%20Image%202026-03-01%20at%206.23.38%20PM.jpeg')" role="img" aria-label="Heavy Lifting & Crane Services specializing in industrial recovery"></div>
           <div class="service-info">
             <h3>Heavy Lifting & Crane Services</h3>
             <p>Professional solutions for construction, industrial installations, and structural lifting.</p>
@@ -277,7 +277,7 @@ const HomeView = `
           </div>
         </div>
         <div class="service-card reveal" data-service="recovery">
-          <div class="service-img" style="background-image: url('/images/WhatsApp%20Image%202026-03-01%20at%206.23.38%20PM%20(1).jpeg')"></div>
+          <div class="service-img" style="background-image: url('/images/WhatsApp%20Image%202026-03-01%20at%206.23.38%20PM%20(1).jpeg')" role="img" aria-label="24/7 Vehicle Recovery & Breakdown assistance in Kenya"></div>
           <div class="service-info">
             <h3>Vehicle Recovery & Breakdown</h3>
             <p>Fast 24/7 roadside assistance for light and heavy-duty vehicles, and commercial fleets.</p>
@@ -285,7 +285,7 @@ const HomeView = `
           </div>
         </div>
         <div class="service-card reveal" data-service="transport">
-          <div class="service-img" style="background-image: url('/images/WhatsApp%20Image%202026-03-01%20at%206.23.38%20PM%20(2).jpeg')"></div>
+          <div class="service-img" style="background-image: url('/images/WhatsApp%20Image%202026-03-01%20at%206.23.38%20PM%20(2).jpeg')" role="img" aria-label="Machinery & Heavy Equipment Transport logistics"></div>
           <div class="service-info">
             <h3>Machinery & Equipment Transport</h3>
             <p>Secure transport for generators, containers, and heavy machinery with guaranteed delivery.</p>
@@ -293,7 +293,7 @@ const HomeView = `
           </div>
         </div>
         <div class="service-card reveal" data-service="forklift">
-          <div class="service-img" style="background-image: url('/images/WhatsApp%20Image%202026-03-01%20at%206.23.41%20PM%20(3).jpeg')"></div>
+          <div class="service-img" style="background-image: url('/images/WhatsApp%20Image%202026-03-01%20at%206.23.41%20PM%20(3).jpeg')" role="img" aria-label="Industrial Forklift Services for warehouse material handling"></div>
           <div class="service-info">
             <h3>Forklift Services</h3>
             <p>Reliable forklift solutions for warehouse operations and industrial material handling.</p>
@@ -301,7 +301,7 @@ const HomeView = `
           </div>
         </div>
         <div class="service-card reveal" data-service="hydraulics">
-          <div class="service-img" style="background-image: url('/images/WhatsApp%20Image%202026-03-01%20at%206.23.42%20PM.jpeg')"></div>
+          <div class="service-img" style="background-image: url('/images/WhatsApp%20Image%202026-03-01%20at%206.23.42%20PM.jpeg')" role="img" aria-label="Hydraulic Pumps & Quality Industrial Accessories sales"></div>
           <div class="service-info">
             <h3>Hydraulic Pumps & Accessories</h3>
             <p>Supplying quality hydraulic pumps and lifting accessories designed for durability.</p>
@@ -339,49 +339,49 @@ const HomeView = `
       </div>
       <div class="gallery-grid reveal">
         <div class="gallery-item" data-category="lifting">
-          <img src="/images/WhatsApp%20Image%202026-03-01%20at%206.23.34%20PM.jpeg" alt="Lifting Project">
+          <img src="/images/WhatsApp%20Image%202026-03-01%20at%206.23.34%20PM.jpeg" alt="Precision structural lifting operation at an industrial plant">
           <div class="gallery-overlay">
             <h4>Structural Lifting</h4>
             <p>Industrial Plant Operations</p>
           </div>
         </div>
         <div class="gallery-item" data-category="recovery">
-          <img src="/images/WhatsApp%20Image%202026-03-01%20at%206.23.38%20PM%20(1).jpeg" alt="Recovery Project">
+          <img src="/images/WhatsApp%20Image%202026-03-01%20at%206.23.38%20PM%20(1).jpeg" alt="Emergency nighttime vehicle recovery for a commercial fleet">
           <div class="gallery-overlay">
             <h4>Fleet Recovery</h4>
             <p>Nighttime Emergency Salvage</p>
           </div>
         </div>
         <div class="gallery-item" data-category="transport">
-          <img src="/images/WhatsApp%20Image%202026-03-01%20at%206.23.39%20PM.jpeg" alt="Transport Project">
+          <img src="/images/WhatsApp%20Image%202026-03-01%20at%206.23.39%20PM.jpeg" alt="Secure machinery transport with precision generator logistics">
           <div class="gallery-overlay">
             <h4>Static Plant Move</h4>
             <p>Precision Generator Logistics</p>
           </div>
         </div>
         <div class="gallery-item" data-category="recovery">
-          <img src="/images/WhatsApp%20Image%202026-03-01%20at%206.23.36%20PM.jpeg" alt="Recovery Project">
+          <img src="/images/WhatsApp%20Image%202026-03-01%20at%206.23.36%20PM.jpeg" alt="24/7 roadside vehicle recovery and support service">
           <div class="gallery-overlay">
             <h4>Vehicle Recovery</h4>
             <p>24/7 Roadside support</p>
           </div>
         </div>
         <div class="gallery-item" data-category="transport">
-          <img src="/images/WhatsApp%20Image%202026-03-01%20at%206.23.38%20PM.jpeg" alt="Transport Project">
+          <img src="/images/WhatsApp%20Image%202026-03-01%20at%206.23.38%20PM.jpeg" alt="Heavy equipment transport for industrial logistics">
           <div class="gallery-overlay">
             <h4>Machinery Transport</h4>
             <p>Industrial logistics</p>
           </div>
         </div>
         <div class="gallery-item" data-category="lifting">
-          <img src="/images/WhatsApp%20Image%202026-03-01%20at%206.23.35%20PM.jpeg" alt="Lifting Project">
+          <img src="/images/WhatsApp%20Image%202026-03-01%20at%206.23.35%20PM.jpeg" alt="Strategic equipment placement using precision lifting techniques">
           <div class="gallery-overlay">
             <h4>Precision Lifting</h4>
             <p>Equipment placement</p>
           </div>
         </div>
         <div class="gallery-item" data-category="recovery">
-          <img src="/images/WhatsApp%20Image%202026-03-01%20at%206.23.37%20PM.jpeg" alt="Recovery Project">
+          <img src="/images/WhatsApp%20Image%202026-03-01%20at%206.23.37%20PM.jpeg" alt="Specialized heavy-duty recovery for breakdown services">
           <div class="gallery-overlay">
             <h4>Breakdown Service</h4>
             <p>Heavy duty recovery</p>
@@ -488,7 +488,7 @@ const AboutView = `
           <p>What started as a specialized lifting firm has evolved into a 24/7 industrial logistics powerhouse. We are proud of our heritage and the reputation we've built for handling "the impossible" lifts with surgical precision.</p>
         </div>
         <div class="about-img-frame">
-          <img src="/images/WhatsApp%20Image%202026-03-01%20at%206.23.38%20PM.jpeg" alt="Industrial Heritage">
+          <img src="/images/WhatsApp%20Image%202026-03-01%20at%206.23.38%20PM.jpeg" alt="BENEDICTECH specialists performing a complex industrial lift with surgical precision">
         </div>
       </div>
     </section>
@@ -558,7 +558,7 @@ const ServicesView = `
           </ul>
         </div>
         <div class="sf-image-frame">
-          <img src="/images/WhatsApp%20Image%202026-03-01%20at%206.23.34%20PM.jpeg" alt="Heavy Lifting Operations">
+          <img src="/images/WhatsApp%20Image%202026-03-01%20at%206.23.34%20PM.jpeg" alt="Precision heavy lifting operation utilizing advanced rigging on a construction site">
         </div>
       </div>
     </section>
@@ -567,7 +567,7 @@ const ServicesView = `
     <section class="service-feature sf-alt reveal">
       <div class="container sf-grid">
         <div class="sf-image-frame">
-          <img src="/images/crane_installation.png" alt="Crane Services">
+          <img src="/images/crane_installation.png" alt="Industrial crane installation and factory equipment fitting service in Nairobi">
         </div>
         <div class="sf-content">
           <span class="badge">Professional Rigging</span>
@@ -598,7 +598,7 @@ const ServicesView = `
           </ul>
         </div>
         <div class="sf-image-frame">
-          <img src="/images/truck_recovery_service.png" alt="Motor Vehicle Recovery">
+          <img src="/images/truck_recovery_service.png" alt="Professional heavy-duty truck recovery and 24/7 roadside salvage operation">
         </div>
       </div>
     </section>
@@ -607,7 +607,7 @@ const ServicesView = `
     <section class="service-feature sf-alt reveal">
       <div class="container sf-grid">
         <div class="sf-image-frame">
-          <img src="/images/night_recovery.png" alt="Breakdown Assistance">
+          <img src="/images/night_recovery.png" alt="Rapid 24/7 nighttime breakdown assistance for a commercial fleet in Kenya">
         </div>
         <div class="sf-content">
           <span class="badge">24/7 Support</span>
@@ -638,7 +638,7 @@ const ServicesView = `
           </ul>
         </div>
         <div class="sf-image-frame">
-          <img src="/images/forklift_warehouse.png" alt="Forklift Services">
+          <img src="/images/forklift_warehouse.png" alt="Certified forklift operator handling industrial materials and warehouse logistics">
         </div>
       </div>
     </section>
@@ -647,7 +647,7 @@ const ServicesView = `
     <section class="service-feature sf-alt reveal">
       <div class="container sf-grid">
         <div class="sf-image-frame">
-          <img src="/images/WhatsApp%20Image%202026-03-01%20at%206.23.38%20PM%20(2).jpeg" alt="Container Transport">
+          <img src="/images/WhatsApp%20Image%202026-03-01%20at%206.23.38%20PM%20(2).jpeg" alt="Secure sea container transport and industrial plant logistics infrastructure">
         </div>
         <div class="sf-content">
           <span class="badge">Logistics Excellence</span>
@@ -678,7 +678,7 @@ const ServicesView = `
           </ul>
         </div>
         <div class="sf-image-frame">
-          <img src="/images/hydraulics.png" alt="Hydraulic Pumps Sales">
+          <img src="/images/hydraulics.png" alt="High-quality certified hydraulic pumps and lifting accessories available for industrial sale">
         </div>
       </div>
     </section>
