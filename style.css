@@ -32,7 +32,7 @@
   bottom: 2rem;
   right: 2rem;
   z-index: 1000;
-  background: var(--primary);
+  background: #25D366; /* WhatsApp Green */
   color: white;
   width: 60px;
   height: 60px;
@@ -40,7 +40,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 10px 25px rgba(0, 136, 68, 0.4);
+  box-shadow: 0 10px 25px rgba(37, 211, 102, 0.4);
   cursor: pointer;
   transition: var(--transition);
   text-decoration: none;
@@ -62,7 +62,7 @@
   white-space: nowrap;
   opacity: 0;
   transition: var(--transition);
-  border: 1px solid var(--primary);
+  border: 1px solid #25D366;
 }
 
 @media (max-width: 768px) {
@@ -74,6 +74,71 @@
 
 .floating-btn:hover .tooltip {
   opacity: 1;
+}
+
+/* WhatsApp Notification Toast */
+.wa-notification {
+  position: fixed;
+  bottom: 7rem;
+  right: 2rem;
+  background: white;
+  padding: 1.25rem 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+  max-width: 280px;
+  z-index: 999;
+  transform: translateY(20px);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border-left: 4px solid #25D366;
+}
+
+.wa-notification.active {
+  transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
+}
+
+.wa-notify-content p {
+  font-size: 0.9rem;
+  color: var(--text-light);
+  margin: 0;
+  line-height: 1.4;
+}
+
+.wa-notify-content strong {
+  color: #25D366;
+  display: block;
+  margin-top: 0.25rem;
+}
+
+.wa-notify-close {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  color: var(--text-muted);
+  cursor: pointer;
+  line-height: 1;
+  padding: 0.25rem;
+  transition: var(--transition);
+}
+
+.wa-notify-close:hover {
+  color: #ff4444;
+  transform: scale(1.1);
+}
+
+@media (max-width: 576px) {
+  .wa-notification {
+    right: 1.5rem;
+    left: 1.5rem;
+    max-width: none;
+    bottom: 6.5rem;
+  }
 }
 
 * {
